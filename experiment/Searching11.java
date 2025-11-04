@@ -1,15 +1,29 @@
 package experiment;
+import java.util.Scanner;
 public class Searching11 {
     public static void main(String[] args) {
-        int[] arrayInt = {34,18,26,48,72,20,56,63};
-        int key = 20 ;
-        int result = 0;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter the number of array elements :");
+        int n = sc.nextInt();
+        int[] arrayInt = new int[n];
+        
+        int result = -1;
         for (int i = 0; i < arrayInt.length; i++) {
-            if (arrayInt[i]==key) {
-                result = i ;
-                break;
-            }
+            System.out.print("Enter Array Element "+i+" : " );
+            arrayInt[i]=sc.nextInt(); 
         }
-        System.out.println("The key in the array is located at index position " + result);
+        System.out.print("enter key want to search : ");
+        int key = sc.nextInt();
+        for (int i = 0; i < arrayInt.length; i++) {
+            if (key == arrayInt[i]) {
+                result = i;
+                break;
+            } 
+        }
+        if (result !=-1) {
+            System.out.println("the key in the array is located at index position :"+ result);
+        } else {
+            System.out.println("key not found ");
+        }
     }
 }
