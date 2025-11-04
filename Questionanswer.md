@@ -12,8 +12,8 @@
 4. done  
 5. done  
 ### Experiment 3  
-1. 
-2.
-3.
-
+1. done  
+2. done  
+3. done   
 ### Experiment 4
+1. 
