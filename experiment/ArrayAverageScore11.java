@@ -11,10 +11,14 @@ public class ArrayAverageScore11 {
             score[i]=sc.nextInt();
         }
         for (int i = 0; i < score.length; i++) {
+            if (score[i] > 70) {
+                System.out.println("student "+i+" passed with score : "+score[i] );
+            }
             total += score[i]; 
         }
         average = total/score.length;
         System.out.println("the class average score is : "+average);
+        System.out.println();
         sc.close();
     }
 }

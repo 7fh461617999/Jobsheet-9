@@ -8,9 +8,12 @@
 ### Experiment 2  
 1. the output is no change because the value of finalscore.lenght is how many array index in the program 
 2. i < finalscore.length condition is true if the i value lower than how many index in finalscore Array.  
-3. 
-4. 
-5.  
+3. done  
+4. done  
+5. done  
 ### Experiment 3  
+1. 
+2.
+3.
 
 ### Experiment 4
